@@ -1,120 +1,44 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title> Página web </title>
-    <link href = "css/main.css" rel = "stylesheet" type = "text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>AmazingAdventures</title>
 </head>
 <body>
-    <div id = "banner"> <h1>Adventure Time!</h1> </div> 
-    <div class = "topnav"> 
-        <a>Elements</a>
-        <a>Elements</a>
-        <a>Elements</a> 
-    </div>
-    <table>
-        <tr>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+    <div class="contenedor">
+        
+        <header class="fila">
+            <div class="col-lg-3 col-xs-12">Logueishon</div>
+            <div class="col-lg-6 col-xs-0">Buscar</div>
+            <div class="col-lg-3 col-xs-0">Eres organizador? <a href="#">registrate</a> o <a href="#">inicia sesión</a></div>
+            <div class="col-lg-0 col-xs-12">Menu acordeon</div>
+        </header>
+        <div class="fila">
+            <div class="col-lg-12 col-xs-12" style="height: 250px;">Carousel</div>
+        </div>
+        <div class="fila">
+            <div class="col-lg-1 col-xs-0">Spacer</div>
+            <div class="col-lg-10 col-xs-12" id="event-container">
+                <div class="col-lg-3 col-xs-12 card">Card con evento</div>
+                <div class="col-lg-3 col-xs-12 card">Card con evento</div>
+                <div class="col-lg-3 col-xs-12 card">Card con evento</div>
+                <div class="col-lg-3 col-xs-12 card">Card con evento</div>
+                <div class="col-lg-3 col-xs-12 card">Card con evento</div>
+                <div class="col-lg-3 col-xs-12 card">Card con evento</div>
+                <div class="col-lg-3 col-xs-12 card">Card con evento</div>
+                <div class="col-lg-3 col-xs-12 card">Card con evento</div>
             </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-            <td>
-            <div class="card">
-                <img src="images/logo.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-            </div>
-            </td>
-        </tr>
-    
-</div>
+            <div class="col-lg-1 col-xs-0">Spacer</div>
+        </div>
+
+
+
+
+
+    </div> 
+
+
 </body>
 </html>
