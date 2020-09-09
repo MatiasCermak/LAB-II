@@ -32,6 +32,9 @@
             </div>
             <div class="col-lg-1 col-xs-0">Spacer</div>
         </div>
+        <div class="fila">
+            <footer class="col-lg-12 col-xs-12"> &copy Propiedad de Matías Cermak y Jeremías Fernandez</footer>
+        </div>
 
 
 

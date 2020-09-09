@@ -23,8 +23,25 @@
 	display:table;
 }
 
+#logo{
+	text-align: center;
+}
+
+#imglogo{
+	height: auto;
+	width: 50%;
+}
+
+#buscador{
+	float: middle;
+}
+
 .card{
   margin: 10px;
+}
+
+footer{
+	text-align: center
 }
 
 [class*="col-"]{
