@@ -27,6 +27,10 @@
   text-align: center;
 }
 
+.carousel-ctrl {
+background: black;
+}
+
 #imglogo {
   height: auto;
   width: 50%;
@@ -36,8 +40,8 @@
   float: middle;
 }
 
-.card {
-  margin: 10px;
+.spacer-card{
+  background: blue;
 }
 
 footer {
@@ -55,6 +59,7 @@ footer {
     display: none;
   }
 }
+
 
 /*=============================================
 PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
