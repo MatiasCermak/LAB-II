@@ -59,11 +59,11 @@ justify-content: space-between;
 
 @media (min-width: 992px)
 {
-.slide-box img {
-  -ms-flex: 1 1 60%;
-  flex: 1 1 60%;
-  max-width: 75%;
-}
+  .slide-box img {
+    -ms-flex: 1 1 60%;
+    flex: 1 1 60%;
+    max-width: 75%;
+  }
 }
 
 .carousel-caption {
